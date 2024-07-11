@@ -117,6 +117,12 @@ Context=Status
 Size=32
 Type=Fixed
 
+#256
+[256/applets]
+Context=Applets
+Size=256
+Type=Fixed
+
 #scalable
 [scalable/apps]
 Context=Applications
