@@ -1,6 +1,6 @@
 #!/bin/bash
 SELF_DIR="$(dirname "$(readlink -f "$0")")"
-TARGET_DIR="$HOME/.local/share/icons"
+TARGET_DIR="/usr/share/icons"
 
 mkdir -p "$TARGET_DIR"
 for _i in OneUI{,-dark,-light}; do
